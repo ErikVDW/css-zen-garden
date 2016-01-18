@@ -1,6 +1,7 @@
 html {
 	margin: 0;
 	padding: 0;
+    width: 100%;
 	}
 
 body {
@@ -8,8 +9,16 @@ body {
     background-size: 100%;
     clear: both;
     color: #ecf0f1;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+div {}
+.page-wrapper {
     margin-right: 30%;
     margin-left: 10%;
+    width: 60%;
 }
 header {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c3e50+27,ffffff+100&1+0,0+55,0+55 */
@@ -22,6 +31,7 @@ header {
     margin-top: -2%;
     margin-left: 0%;    
     position: fixed;
+    width:89.5%;
 
     
 /*    opacity: .6;*/
