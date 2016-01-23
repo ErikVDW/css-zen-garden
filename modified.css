@@ -5,10 +5,10 @@ html {
 }
 
 body {
-	background-color: #16a085;
+	background-color: white;
     background-size: 100%;
     clear: both;
-    color: #ecf0f1;
+    color: #0f0f0f;
     float: left;
     font-family: raleway;
     font-size: 1.5em;
@@ -19,7 +19,7 @@ body {
 }
 
 a {
-    color: #ecf0f1;
+    color: #0f0f0f;
     text-decoration: none;
 }
 
@@ -36,16 +36,17 @@ header {
 	/*    background: -webkit-linear-gradient(top,  rgba(44,62,80,1) 0%,rgba(44,62,80,0.51) 27%,rgba(125,136,147,0) 55%,rgba(255,255,255,0) 100%);  Chrome10-25,Safari5.1-6 */
 	/*    background: linear-gradient(to bottom,  rgba(44,62,80,1) 0%,rgba(44,62,80,0.51) 27%,rgba(125,136,147,0) 55%,rgba(255,255,255,0) 100%);  W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	/*    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c3e50', endColorstr='#00ffffff',GradientType=0 );  IE6-9 */
-	background-color: #2c3e50;
-	box-shadow: 0px 3px 3px #2c3e50;
+/*	background-color: #ecf0f1;*/
 /*    float: right;*/
-    height: 6em;
+    height: 4.5em;
+    line-height: 50%;
     position: fixed;
     top: 0;
     vertical-align: middle;
     width:100%;
     margin-right: auto;
     margin-left: auto;
+    
 }
 
 header h1 {
@@ -68,6 +69,31 @@ header h2{
 
 .summary {
     font-style: italic;
-	margin: 17% 30% 10% auto;
-    width: 60%;
+	margin: 7em 5% 5% auto;
+    width: 90%;
+}
+
+.preamble {
+	margin: 17% 5% 5% auto;
+    width: 90%;
+}
+
+.explanation {
+	margin: 17% 5% 5% auto;
+    width: 90%;
+}
+
+.participation {
+	margin: 17% 5% 5% auto;
+    width: 90%;
+}
+
+.benefits {
+	margin: 17% 5% 5% auto;
+    width: 90%;
+}
+
+.requirements {
+	margin: 17% 5% 5% auto;
+    width: 90%;
 }
