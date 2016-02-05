@@ -99,12 +99,47 @@ header h2 {
 
 }
 .preamble h3{
-    padding: 5% 0 1% 5%;
+    padding: 15% 0 1% 5%;
 }
 .preamble p {
     padding-bottom: 5%;
 }
-#zen-summary {
-/*	height: 50%;*/
+
+.preamble p:last-child {
+    padding-bottom: 15%;
 }
 
+.explanation {
+    background-image: url('./img/ferris-wheel.jpg');
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    padding-right: 50%;
+    background-position: right;
+    overflow: hidden;
+}
+
+.explanation h3{
+    padding: 10% 0 1% 5%;
+}
+.explanation p {
+    padding-bottom: 10%;
+}
+
+.participation {
+    background-image: url('./img/space-station.jpg');
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    padding-left: 50%;
+    background-position: left;
+    overflow: hidden;
+}
+
+.participation h3{
+    padding: 10% 0 1% 5%;
+}
+.participation p {
+    padding-bottom: 5%;
+}
+.participation p:last-child {
+    padding-bottom: 10%;
+}
