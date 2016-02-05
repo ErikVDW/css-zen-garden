@@ -27,11 +27,15 @@ a:hover {
 }
 
 p {
-	margin: 0 5% 2% auto;
+	margin: 0 5% 0 auto;
     width: 90%;
 }
 
 div {
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
 }
 
 header {
@@ -53,13 +57,13 @@ header h1 {
     margin: .1em 0 0 0;
 }
 
-header h2{
+header h2 {
     font-weight: normal;
     text-align: right;
     height: 50px;
     margin: 0;
 }
-}
+
 
 .page-wrapper {
 	
@@ -77,10 +81,28 @@ header h2{
     margin-top: 8%;
 	padding-top: 30%;
 }
-.summary p {
+
+.summary p  {
     width: 65%;
-    margin-left: 2%;
+    margin-left: 7%;
     text-shadow: 1px 1px grey;
+}
+.summary p:last-child {
+    padding-bottom: 10%;
+}
+
+.preamble {
+    background-image: url('./img/telephone-booth.jpg');
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    padding-left: 50%;
+
+}
+.preamble h3{
+    padding: 5% 0 1% 5%;
+}
+.preamble p {
+    padding-bottom: 5%;
 }
 #zen-summary {
 /*	height: 50%;*/
