@@ -29,6 +29,7 @@ a:hover {
 p {
 	margin: 0 5% 0 auto;
     width: 90%;
+    line-height: 1.4em;
 }
 
 div {
@@ -36,6 +37,9 @@ div {
 
 h1, h2, h3, h4 {
     margin: 0;
+}
+h3{
+    padding: 15% 0 5% 5%;
 }
 
 header {
@@ -98,9 +102,9 @@ header h2 {
     padding-left: 50%;
 
 }
-.preamble h3{
+/*.preamble h3{
     padding: 15% 0 1% 5%;
-}
+}*/
 .preamble p {
     padding-bottom: 5%;
 }
@@ -118,9 +122,9 @@ header h2 {
     overflow: hidden;
 }
 
-.explanation h3{
+/*.explanation h3{
     padding: 10% 0 1% 5%;
-}
+}*/
 .explanation p {
     padding-bottom: 10%;
 }
@@ -134,12 +138,35 @@ header h2 {
     overflow: hidden;
 }
 
-.participation h3{
+/*.participation h3{
     padding: 10% 0 1% 5%;
-}
+}*/
+
 .participation p {
     padding-bottom: 5%;
 }
+
 .participation p:last-child {
     padding-bottom: 10%;
+}
+
+.benefits {
+    background-image: url('./img/raspberries.jpg');
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    padding-right: 50%;
+    background-position: right;
+    overflow: hidden;
+}
+
+/*.benefits h3{
+    padding: 25% 0 1% 5%;
+}*/
+
+.benefits p {
+    padding-bottom: 5%;
+}
+
+.benefits p:last-child {
+    padding-bottom: 20%;
 }
