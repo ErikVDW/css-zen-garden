@@ -18,7 +18,7 @@ body {
 }
 
 a {
-    color: #0f0f0f;
+    color: #49aae6;
     text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ header h2 {
 .summary p  {
     width: 65%;
     margin-left: 7%;
-    text-shadow: 1px 1px grey;
+    text-shadow: 1.3px 1.3px black;
 }
 .summary p:last-child {
     padding-bottom: 10%;
