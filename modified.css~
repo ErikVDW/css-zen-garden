@@ -91,7 +91,7 @@ header h2 {
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
-    font-size: 2.5em;
+    font-size: 2.0em;
 }
 .summary p:last-child {
     
@@ -162,10 +162,6 @@ header h2 {
     overflow: hidden;
 }
 
-/*.benefits h3{
-    padding: 25% 0 1% 5%;
-}*/
-
 .benefits p {
     padding-bottom: 5%;
 }
@@ -173,3 +169,24 @@ header h2 {
 .benefits p:last-child {
     padding-bottom: 20%;
 }
+
+.requirements {
+    background-image: url('./img/balloon.jpg');
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    padding-left: 50%;
+    background-position: left;
+    overflow: hidden;
+}
+
+.requirements p : nth-child(-n+3) {
+    padding-bottom: 5%;
+}
+
+.requirements  p:last-child {
+    padding-bottom: 10%;
+}
+
+
+
+
