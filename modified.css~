@@ -84,7 +84,7 @@ header h2 {
 	height: 0%;     
     color: black;
     margin-top: 8%;
-	padding-top: 35%;
+	padding-top: 30%;
 }
 
 .summary p  {
