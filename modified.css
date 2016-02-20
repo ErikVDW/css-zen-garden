@@ -18,7 +18,7 @@ body {
 }
 
 a {
-    color: #E3B730;
+    color: #2F8CB8;
     text-decoration: none;
 }
 
@@ -85,6 +85,11 @@ header h2 {
     color: white;
     margin-top: 8%;
 	padding-top: 25%;
+}
+
+
+.summary a {
+    color: #E3B730;
 }
 
 .summary p  {
