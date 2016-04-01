@@ -1,3 +1,6 @@
+@media screen and (min-width: 700px) {
+
+
 html {
 	margin: 0;
 	padding: 0;
@@ -50,7 +53,8 @@ ul {
 
 header {
 	background-color: white;
-    height: 4em;
+	font-size: 1em
+/*    height: 5em;*/
     margin-right: auto;
     margin-left: 0px;
     position: fixed;
@@ -62,26 +66,36 @@ header {
 }
 
 header h1 {
-    font-weight: bold;
-    text-align: right;
-    height: 40px;
-    margin: .1em 0 0 0;
+/*    font-weight: bold;*/
+/*    font-size: 1.9em;*/
+/*    text-align: right;*/
+/*    height: 4em;*/
+/*    margin: .1em 0 0 0;*/
 }
 
 header h2 {
     font-weight: normal;
-    text-align: right;
-    height: 50px;
-    margin: 0;
+/*    font-size: 1.9em;*/
+/*    text-align: right;*/
+/*    height: 2em;*/
+/*    margin: 0;*/
 }
 
+header[role=banner] {
+	text-align: right;
+    margin: .1em 0 0 0
+    top = 0;
+}
 
 .page-wrapper {
     position: relative;
 }
 
 .intro {
-	
+/*	text-align: right;*/
+/*    height: 4em;*/
+/*    margin: .1em 0 0 0;*/
+/*    position: fixed;*/
 }
 
 .summary {
@@ -229,5 +243,5 @@ header h2 {
     margin: 0;
 }
 
-
+}/*desktop ol*/
 
